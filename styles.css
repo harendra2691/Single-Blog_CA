@@ -18,7 +18,7 @@ header{
 }
 
 header a{
-  /* display: inline-block; */
+  display: inline-block;
 }
 
 header a img {
