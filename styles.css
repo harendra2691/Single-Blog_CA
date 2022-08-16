@@ -164,7 +164,7 @@ main #blue-img {
   width: 100%;
 }
 
-h3 {
+.card-heading {
   text-transform: uppercase;
   max-width: 222px;
   margin: 30px auto 19px auto;
