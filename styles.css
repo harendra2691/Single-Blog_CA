@@ -85,6 +85,7 @@
 }
 
 .blank-img {
+  max-width: 100%;
   margin: 0 auto;
   display: block;
 }
@@ -133,7 +134,7 @@ h4{
 }
 
 .blue-img {
- 
+ max-width: 100%;
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;
