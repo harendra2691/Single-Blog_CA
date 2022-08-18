@@ -118,17 +118,27 @@ h4{
 .list {
   margin-bottom: 30px;
   list-style: none;
+  padding-left: 15px;
 }
 
 .list-data {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.23;
 }
 
-.list-data::before {
+/* .list-data::before {
   content: "• ";
   color: #0000ff;
-}
+} */
+
+  .dot {
+    height: 5px;
+    width: 5px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+  }
 
 .top-text{
   margin: 0 39px;
