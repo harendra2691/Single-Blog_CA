@@ -34,7 +34,7 @@
 .inner-container{
   max-width: 501px;
   margin: 0 auto;
-  padding: 0 8px;
+  padding: 0 3px;
 }
 
 .hero article{
@@ -74,7 +74,7 @@
   line-height: 1.2;
   color: #293340;
   font-weight: normal;
-  /* padding: 0 10px; */
+ 
 
 }
 
@@ -103,7 +103,7 @@ h4{
   margin-bottom: 15px;
   text-transform: uppercase;
   font-weight: 500;
-  padding: 0 6px;
+  padding: 0 13px;
 }
 
 .txt-color{
@@ -112,7 +112,7 @@ h4{
 .text-prop{
   margin-bottom: 19px;
   line-height: 1.23;
-  padding: 0 7px;
+  padding: 0 14px;
 }
 
 .list {
@@ -135,7 +135,7 @@ h4{
   margin-bottom: 10px;
   font-weight: 300;
   line-height: 1.42;
-  padding: 0 21px;
+  padding: 0 26px;
 }
 
 .blue-img {
