@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-.back-img{
+/* .back-img{
   display: block;
-}
+} */
 
 .header{
   position: absolute;
@@ -18,7 +18,7 @@
   padding: 21px 32px;
 }
 .hero{
-  background-image: url("https://i.postimg.cc/9QZnRW1R/background.png");
+  background-image: url("background.png");
   min-height: 720px;
   position: relative;
 }
@@ -125,6 +125,8 @@ h4{
   font-size: 12px;
   line-height: 1.23;
 }
+
+/* this can also be used */
 
 /* .list-data::before {
   content: "• ";
