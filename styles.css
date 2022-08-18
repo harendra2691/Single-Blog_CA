@@ -118,7 +118,7 @@ h4{
 .list {
   margin-bottom: 30px;
   list-style: none;
-  padding-left: 15px;
+  padding: 0 15px;
 }
 
 .list-data {
