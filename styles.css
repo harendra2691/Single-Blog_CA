@@ -124,8 +124,6 @@ h4{
   line-height: 1.23;
 }
 
-/* this can also be used */
-
 /* .list-data::before {
   content: "• ";
   color: #0000ff;
@@ -215,23 +213,43 @@ h4{
 
 .card {
 float: left;
+width: 246px;
+  height: 402px;
 }
 .second-card{
   display: inline-block;
-  margin-right: -4px;
+  margin-left: -4px;
+  width: 246px;
+  height: 402px;
 }
-.card-margin{
+
+.card:not(:last-child){
+  margin-right: 20px;
+}
+
+.second-card:not(:last-child){
   margin-right: 20px;
 }
 .second-card-margin{
   margin-left: 20px;
 }
 
-.card  img {
-  width: 246px;
-  height: 307px;
+.card >img {
+  /* width: 246px;
+  height: 307px; */
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 76%;
+  object-fit: cover;
+}
+
+.second-card>img{
+  display: block;
+  margin-bottom: 15PX;
+  width: 100%;
+  height: 76%;
+  object-fit: cover;
 }
 
 .card-text{
